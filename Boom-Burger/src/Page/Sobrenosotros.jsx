@@ -1,13 +1,14 @@
 import Crear from "../Componentes/Crear";
 
 import React from "react";
+import Nosotros from "../Componentes/Nosotros";
 
 
 
-function NuevoArticulo(props) {
+function Sobrenosotros(props) {
     return (
     <section>
-    <Crear ActualizarArt={props.ActualizarArt} />
+    <Nosotros></Nosotros>
 
    
     
@@ -15,4 +16,4 @@ function NuevoArticulo(props) {
     );
 }
 
-export default NuevoArticulo;
+export default Sobrenosotros;
